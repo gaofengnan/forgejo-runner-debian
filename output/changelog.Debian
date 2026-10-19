@@ -1,4 +1,4 @@
-forgejo-runner (FULL_VERSION) DIST; urgency=low
+forgejo-runner (FULL_VERSION) stable; urgency=low
 
   * Package forgejo-runner FORGEJO_RUNNER_VERSION for Debian/Ubuntu.
 

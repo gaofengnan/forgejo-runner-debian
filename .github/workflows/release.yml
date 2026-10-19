@@ -37,7 +37,7 @@ jobs:
         run: ./validate_license.sh ${{ inputs.forgejo_runner_version }}
 
       - name: Build forgejo-runner
-        run: ./build_debian.sh ${{ inputs.forgejo_runner_version }} ${{ inputs.build_version }} ${{ inputs.architecture }} && ./build_ubuntu.sh ${{ inputs.forgejo_runner_version }} ${{ inputs.build_version }} ${{ inputs.architecture }}
+        run: ./build_debian.sh ${{ inputs.forgejo_runner_version }} ${{ inputs.build_version }} ${{ inputs.architecture }}
 
       - name: Upload Binary Artifacts
         uses: actions/upload-artifact@v4
