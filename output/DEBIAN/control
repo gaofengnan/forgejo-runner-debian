@@ -1,9 +1,9 @@
 Section: net
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Homepage: https://code.forgejo.org/forgejo/runner
 Package: forgejo-runner
-Version: FORGEJO_RUNNER_VERSION-BUILD_VERSION~griffo
+Version: FORGEJO_RUNNER_VERSION-BUILD_VERSION~gaofn
 Architecture: SUPPORTED_ARCHITECTURES
 Depends: adduser
 Description: Runner for Forgejo Actions
